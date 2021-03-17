@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
 # Distribution / packaging
 .Python
 build/
@@ -102,6 +106,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.vs
+.vs/
 .env
 .venv
 env/
@@ -127,6 +133,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# Visual Studio shtuff
-.vs/

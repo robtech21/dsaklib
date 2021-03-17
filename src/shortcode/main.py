@@ -7,4 +7,10 @@ pnt   = print
 inpt  = input
 
 def clear():
-  system('clear')
+    system('clear')
+
+def cls():
+    system('clear')
+
+def clr():
+    system('clear')
